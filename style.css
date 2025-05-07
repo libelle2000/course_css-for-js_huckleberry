@@ -18,6 +18,7 @@ p {
     line-height: 1.5;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem; /* video: use margin-bottom: 1rem */
+    /* video: set margin-bottom:0 for :last-child */
 }
 
 .max-width-wrapper {
@@ -30,7 +31,7 @@ p {
 
 header {
     color: hsl(0deg, 0%, 0%);
-    padding-bottom: 48px;
+    padding-bottom: 48px; /* video: having more space because of setting margin-bottom:0 for p:last-child */
 }
 
 header .intro-chunk {
