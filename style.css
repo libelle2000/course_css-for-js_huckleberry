@@ -17,7 +17,7 @@ h1, h2, p {
 p {
     line-height: 1.5;
     margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.7rem; /* video: use margin-bottom: 1rem */
 }
 
 .max-width-wrapper {
@@ -41,7 +41,7 @@ header .intro-chunk {
 
 header .title {
     font-size: 2rem;
-    padding-bottom: 32px;
+    padding-bottom: 32px; /* video: use margin-bottom: 3rem */
 }
 
 header p {
