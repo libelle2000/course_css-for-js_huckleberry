@@ -10,3 +10,18 @@ body {
 }
 
 /* Add styles here! */
+header {
+    color: hsl(0deg, 0%, 0%);
+}
+
+header .title {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+header p strong {
+    color: hsl(160, 100%, 30%);
+}
