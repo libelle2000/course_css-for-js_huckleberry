@@ -18,6 +18,14 @@ p {
     line-height: 1.5;
 }
 
+.max-width-wrapper {
+    max-width: 800px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     color: hsl(0deg, 0%, 0%);
 }
@@ -38,14 +46,6 @@ main {
     border-top: 7px solid hsl(0deg, 0%, 60%);
     background-color: hsl(0deg, 0%, 40%);
     padding: 72px 0 66px 0;
-}
-
-main .max-width-wrapper {
-    max-width: 800px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 main .card {
