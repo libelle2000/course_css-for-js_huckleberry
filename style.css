@@ -41,7 +41,7 @@ header .intro-chunk {
 
 header .title {
     font-size: 2rem;
-    padding-bottom: 36px;
+    padding-bottom: 32px;
 }
 
 header p {
@@ -65,7 +65,7 @@ main .card {
 }
 
 main .indented-heading {
-    margin-left: -33px;
+    margin-left: -32px;
     max-width: fit-content;
     font-size: 1.5rem;
     color: hsl(0deg, 0%, 0%);
