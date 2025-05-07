@@ -30,8 +30,15 @@ header {
     color: hsl(0deg, 0%, 0%);
 }
 
+header .intro-chunk {
+    padding-left: 24px;
+    padding-top: 96px;
+    max-width: 440px;
+}
+
 header .title {
     font-size: 2rem;
+    padding-bottom: 36px;
 }
 
 header p {
