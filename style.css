@@ -25,3 +25,17 @@ header p {
 header p strong {
     color: hsl(160, 100%, 30%);
 }
+
+main {
+    background-color: hsl(0deg, 0%, 40%);
+}
+
+main .card {
+    background-color: hsl(0deg, 0%, 100%);
+}
+
+main .indented-heading {
+    font-size: 1.5rem;
+    color: hsl(0deg, 0%, 0%);
+    background-color: hsl(45deg, 100%, 40%);
+}
