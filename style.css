@@ -60,12 +60,13 @@ main {
 }
 
 main .card {
-    padding: 8px 24px 8px 24px;
+    padding: 8px 24px 8px 24px; /* video: keep 24px all around as card could be a component */
     background-color: hsl(0deg, 0%, 100%);
     border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 main .indented-heading {
+    /* video: add negative margin-top to lift this a bit up */
     margin-left: -32px;
     max-width: fit-content;
     font-size: 1.5rem;
